@@ -63,9 +63,9 @@ export const Chatbot: React.FC = () => {
           <Center style={{ height: '70vh' }}>
             <Flex justify="center" align="center" direction="column">
               <Image src="logo.png" w={80} h={80} />
-              <Title order={1} mt="md">SparkSDK</Title>
+              <Title order={1} mt="md">Mearth Chat</Title>
               <Text c="dimmed">
-                Chat with <Anchor href="https://sparkengine.ai" target="_blank">Spark Engine</Anchor> projects
+                Chat with <Anchor href="https://projectmoonhut.org" target="_blank">Mearth</Anchor>
               </Text>
             </Flex>
           </Center>
