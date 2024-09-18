@@ -4,7 +4,7 @@ import { ChatInput } from './input';
 import { Message } from './message';
 import styles from '../styles/chatbot.module.css';
 
-const API_URL = "/api/chat";
+const API_URL = "https://mearthchat.vercel.app/api/chat";
 // Replace with your own Spark Engine project ID
 const SPARKENGINE_PROJECT_ID = 'e00c0fa4-a369-4268-9d17-d8542b6e57b2';
 
