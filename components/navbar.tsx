@@ -12,7 +12,7 @@ export const Navbar: React.FC = () => {
         <Group>
           <Button
             component="a"
-            href="https://github.com/spark-engine-ai/sparkchat-sdk"
+            href="https://github.com/lggg123/mearthchat"
             target="_blank"
             rel="noopener noreferrer"
             color="dark"
@@ -22,7 +22,7 @@ export const Navbar: React.FC = () => {
           </Button>
           <Button
             component="a"
-            href="https://sparkengine.ai"
+            href="https://www.projectmoonhut.org"
             target="_blank"
             rel="noopener noreferrer"
           >
