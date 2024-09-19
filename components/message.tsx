@@ -15,7 +15,7 @@ export const Message: React.FC<MessageProps> = ({ message, sender, isLoading }) 
   const isMobile = useMediaQuery('(max-width: 768px)');
   return (
     <div style={{borderRadius: isMobile ? '0px' : '8px'}} className={sender === 'user' ? styles.userMessage : styles.botMessage}>
-      <Text style={{ fontWeight: 'bold' }}>{sender === 'user' ? 'You' : 'Sparkchat'}</Text>
+      <Text style={{ fontWeight: 'bold' }}>{sender === 'user' ? 'You' : 'Mearthchat'}</Text>
       {isLoading && sender === 'bot' && <Loader />}
       <MarkdownAi content={message || ''} isStreaming={true}/>
     </div>
